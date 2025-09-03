@@ -1,0 +1,30 @@
+# Evita arquivos temporários e de sistema
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente virtual
+venv/
+.env/
+.venv/
+
+# Cache do Streamlit
+.streamlit/
+
+# Evitar subir áudios muito grandes
+*.wav
+*.flac
+*.m4a
+
+# Logs e temporários
+*.log
+tmp/
+temp/
+
+# Pasta local de testes (se houver)
+local_test/
+
